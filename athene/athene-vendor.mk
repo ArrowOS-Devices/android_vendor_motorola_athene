@@ -52,6 +52,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/motorola/athene/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/motorola/athene/proprietary/bin/radish:system/bin/radish \
+    vendor/motorola/athene/proprietary/bin/sensorservice:system/bin/sensorservice \
     vendor/motorola/athene/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/motorola/athene/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/motorola/athene/proprietary/bin/tcmd:system/bin/tcmd \
