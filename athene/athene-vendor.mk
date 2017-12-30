@@ -21,6 +21,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/bin/batt_health:system/bin/batt_health \
     vendor/motorola/athene/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/motorola/athene/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
+    vendor/motorola/athene/proprietary/lib/android.hardware.biometrics.fingerprint@2.1.so:system/lib/android.hardware.biometrics.fingerprint@2.1.so \
+    vendor/motorola/athene/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:system/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
+    vendor/motorola/athene/proprietary/vendor/bin/hw/rild:system/vendor/bin/hw/rild \
+    vendor/motorola/athene/proprietary/bin/sensorservice:system/bin/sensorservice \
     vendor/motorola/athene/proprietary/bin/gatekeeperd:system/bin/gatekeeperd \
     vendor/motorola/athene/proprietary/bin/cnd:system/bin/cnd \
     vendor/motorola/athene/proprietary/bin/cnss_diag:system/bin/cnss_diag \
@@ -52,7 +56,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/motorola/athene/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/motorola/athene/proprietary/bin/radish:system/bin/radish \
-    vendor/motorola/athene/proprietary/bin/sensorservice:system/bin/sensorservice \
     vendor/motorola/athene/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/motorola/athene/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/motorola/athene/proprietary/bin/tcmd:system/bin/tcmd \
@@ -273,7 +276,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/lib/soundfx/libreverbwrapper.so:system/lib/soundfx/libreverbwrapper.so \
     vendor/motorola/athene/proprietary/lib/soundfx/libvisualizer.so:system/lib/soundfx/libvisualizer.so \
     vendor/motorola/athene/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
-    vendor/motorola/athene/proprietary/lib/android.hardware.biometrics.fingerprint@2.1.so:system/lib/android.hardware.biometrics.fingerprint@2.1.so \
     vendor/motorola/athene/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     vendor/motorola/athene/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
     vendor/motorola/athene/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
@@ -282,8 +284,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/motorola/athene/proprietary/vendor/bin/seemp_healthd:system/vendor/bin/seemp_healthd \
     vendor/motorola/athene/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
-    vendor/motorola/athene/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:system/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
-    vendor/motorola/athene/proprietary/vendor/bin/hw/rild:system/vendor/bin/hw/rild \
     vendor/motorola/athene/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/motorola/athene/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/motorola/athene/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -1041,12 +1041,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/lib/sensor_calibrate.so:system/vendor/lib/sensor_calibrate.so \
     vendor/motorola/athene/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
     vendor/motorola/athene/proprietary/vendor/qcril.db:system/vendor/qcril.db \
-    vendor/motorola/athene/proprietary/lib/vendor.qti.hardware.fm@1.0.so:system/lib/vendor.qti.hardware.fm@1.0.so \
-    vendor/motorola/athene/proprietary/lib64/vendor.qti.hardware.fm@1.0.so:system/lib64/vendor.qti.hardware.fm@1.0.so \
-    vendor/motorola/athene/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so \
-    vendor/motorola/athene/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so \
-    vendor/motorola/athene/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
-    vendor/motorola/athene/proprietary/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/motorola/athene/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/motorola/athene/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/motorola/athene/proprietary/lib64/libperipheral_client.so:system/lib64/libperipheral_client.so \
@@ -1146,11 +1140,17 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/lib64/libsdmextension.so:system/vendor/lib64/libsdmextension.so \
     vendor/motorola/athene/proprietary/vendor/lib64/libsdmutils.so:system/vendor/lib64/libsdmutils.so \
     vendor/motorola/athene/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/motorola/athene/proprietary/vendor/lib64/libtime_genoff.so:system/vendor/lib64/libtime_genoff.so \
-    vendor/motorola/athene/proprietary/vendor/lib64/libtinyxml2_1.so:system/vendor/lib64/libtinyxml2_1.so
+    vendor/motorola/athene/proprietary/vendor/lib64/libtinyxml2_1.so:system/vendor/lib64/libtinyxml2_1.so \
+    vendor/motorola/athene/proprietary/lib/vendor.qti.hardware.fm@1.0.so:system/lib/vendor.qti.hardware.fm@1.0.so \
+    vendor/motorola/athene/proprietary/lib64/vendor.qti.hardware.fm@1.0.so:system/lib64/vendor.qti.hardware.fm@1.0.so \
+    vendor/motorola/athene/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so \
+    vendor/motorola/athene/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so \
+    vendor/motorola/athene/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
+    vendor/motorola/athene/proprietary/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so
 
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.fm@1.0 \
     libtime_genoff \
     TimeService \
     CNEService \
