@@ -21,9 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/bin/batt_health:system/bin/batt_health \
     vendor/motorola/athene/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/motorola/athene/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
-    vendor/motorola/athene/proprietary/lib/android.hardware.biometrics.fingerprint@2.1.so:system/lib/android.hardware.biometrics.fingerprint@2.1.so \
-    vendor/motorola/athene/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:system/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
-    vendor/motorola/athene/proprietary/vendor/bin/hw/rild:system/vendor/bin/hw/rild \
     vendor/motorola/athene/proprietary/bin/sensorservice:system/bin/sensorservice \
     vendor/motorola/athene/proprietary/bin/gatekeeperd:system/bin/gatekeeperd \
     vendor/motorola/athene/proprietary/bin/cnd:system/bin/cnd \
