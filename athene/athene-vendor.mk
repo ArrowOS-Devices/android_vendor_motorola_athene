@@ -1006,6 +1006,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/motorola/athene/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/motorola/athene/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
+    vendor/motorola/athene/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:system/vendor/lib64/mediadrm/libwvdrmengine.so \
     vendor/motorola/athene/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/motorola/athene/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
     vendor/motorola/athene/proprietary/vendor/lib/libts_detected_face_hal.so:system/vendor/lib/libts_detected_face_hal.so \
@@ -1019,8 +1020,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/lib/libwfdcommonutils.so:system/vendor/lib/libwfdcommonutils.so \
     vendor/motorola/athene/proprietary/vendor/lib/libwms.so:system/vendor/lib/libwms.so \
     vendor/motorola/athene/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/motorola/athene/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/motorola/athene/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/motorola/athene/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
