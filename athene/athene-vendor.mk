@@ -263,6 +263,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/motorola/athene/proprietary/lib/libwbxmlparser.so:system/lib/libwbxmlparser.so \
     vendor/motorola/athene/proprietary/lib/libwifi-hal-qcom.so:system/lib/libwifi-hal-qcom.so \
+    vendor/motorola/athene/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
+    vendor/motorola/athene/proprietary/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
+    vendor/motorola/athene/proprietary/lib/libldacBT_enc.so:system/lib/libldacBT_enc.so \
     vendor/motorola/athene/proprietary/lib/soundfx/libaudiopreprocessing.so:system/lib/soundfx/libaudiopreprocessing.so \
     vendor/motorola/athene/proprietary/lib/soundfx/libbundlewrapper.so:system/lib/soundfx/libbundlewrapper.so \
     vendor/motorola/athene/proprietary/lib/soundfx/libdownmix.so:system/lib/soundfx/libdownmix.so \
@@ -1043,6 +1046,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/motorola/athene/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/motorola/athene/proprietary/lib64/libperipheral_client.so:system/lib64/libperipheral_client.so \
+    vendor/motorola/athene/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
+    vendor/motorola/athene/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
+    vendor/motorola/athene/proprietary/lib64/libldacBT_enc.so:system/lib64/libldacBT_enc.so \
     vendor/motorola/athene/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/motorola/athene/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
     vendor/motorola/athene/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
