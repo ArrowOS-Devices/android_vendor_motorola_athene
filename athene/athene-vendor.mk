@@ -47,7 +47,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/motorola/athene/proprietary/bin/motobox:system/bin/motobox \
     vendor/motorola/athene/proprietary/bin/motosh:system/bin/motosh \
-    vendor/motorola/athene/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
+    vendor/motorola/athene/proprietary/vendor/bin/msm_irqbalance:system/vendor/bin/msm_irqbalance \
     vendor/motorola/athene/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/motorola/athene/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/motorola/athene/proprietary/bin/pm-service:system/bin/pm-service \
