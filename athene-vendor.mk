@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/motorola/athene/proprietary/bin/dbvc_atvc_property_set:system/bin/dbvc_atvc_property_set \
     vendor/motorola/athene/proprietary/bin/dun-server:system/bin/dun-server \
-    vendor/motorola/athene/proprietary/bin/fingerprintd:system/bin/fingerprintd \
     vendor/motorola/athene/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
     vendor/motorola/athene/proprietary/bin/ftmipcd:system/bin/ftmipcd \
     vendor/motorola/athene/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
