@@ -20,7 +20,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/bin/audiod:system/bin/audiod \
     vendor/motorola/athene/proprietary/bin/batt_health:system/bin/batt_health \
     vendor/motorola/athene/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
-    vendor/motorola/athene/proprietary/bin/sensorservice:system/bin/sensorservice \
     vendor/motorola/athene/proprietary/bin/cnd:system/bin/cnd \
     vendor/motorola/athene/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/motorola/athene/proprietary/bin/dbvc_atvc_property_set:system/bin/dbvc_atvc_property_set \
@@ -36,7 +35,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/motorola/athene/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/motorola/athene/proprietary/bin/motobox:system/bin/motobox \
-    vendor/motorola/athene/proprietary/bin/motosh:system/bin/motosh \
     vendor/motorola/athene/proprietary/vendor/bin/msm_irqbalance:system/vendor/bin/msm_irqbalance \
     vendor/motorola/athene/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/motorola/athene/proprietary/bin/pm-proxy:system/bin/pm-proxy \
@@ -47,7 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/motorola/athene/proprietary/bin/radish:system/bin/radish \
     vendor/motorola/athene/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/motorola/athene/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/motorola/athene/proprietary/bin/tcmd:system/bin/tcmd \
     vendor/motorola/athene/proprietary/bin/tcmdhelp:system/bin/tcmdhelp \
     vendor/motorola/athene/proprietary/bin/tftp_server:system/bin/tftp_server \
@@ -128,8 +125,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
     vendor/motorola/athene/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
     vendor/motorola/athene/proprietary/etc/firmware/rampatch_tlv.img:system/etc/firmware/rampatch_tlv.img \
-    vendor/motorola/athene/proprietary/etc/firmware/sensorhub-blacklist.txt:system/etc/firmware/sensorhub-blacklist.txt \
-    vendor/motorola/athene/proprietary/etc/firmware/sensorhubfw.bin:system/etc/firmware/sensorhubfw.bin \
+    vendor/motorola/athene/proprietary/vendor/etc/firmware/sensorhub-blacklist.txt:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/sensorhub-blacklist.txt \
+    vendor/motorola/athene/proprietary/vendor/etc/firmware/sensorhubfw.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/sensorhubfw.bin \
     vendor/motorola/athene/proprietary/etc/firmware/synaptics-boe-s332u-16040503-2307b4-athene.tdat:system/etc/firmware/synaptics-boe-s332u-16040503-2307b4-athene.tdat \
     vendor/motorola/athene/proprietary/etc/firmware/synaptics-boe-s332ubt-15111301-1fb0fc-athene.tdat:system/etc/firmware/synaptics-boe-s332ubt-15111301-1fb0fc-athene.tdat \
     vendor/motorola/athene/proprietary/etc/firmware/synaptics-lgd-s332u-16040503-1fb0fc-athene.tdat:system/etc/firmware/synaptics-lgd-s332u-16040503-1fb0fc-athene.tdat \
@@ -196,8 +193,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/framework/com.motorola.imager.athene.jar:system/framework/com.motorola.imager.athene.jar \
     vendor/motorola/athene/proprietary/lib/hw/camera.vendor.msm8952.so:system/lib/hw/camera.msm8952.so \
     vendor/motorola/athene/proprietary/lib/hw/fingerprint.msm8952.so:system/vendor/lib/hw/fingerprint.vendor.msm8952.so \
-    vendor/motorola/athene/proprietary/lib/hw/sensorhub.msm8952.so:system/lib/hw/sensorhub.msm8952.so \
-    vendor/motorola/athene/proprietary/lib/hw/sensors.msm8952.so:system/lib/hw/sensors.msm8952.so \
     vendor/motorola/athene/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
     vendor/motorola/athene/proprietary/lib/libadvalgcore.so:system/lib/libadvalgcore.so \
     vendor/motorola/athene/proprietary/lib/libbabysit.so:system/lib/libbabysit.so \
@@ -249,8 +244,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/motorola/athene/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/motorola/athene/proprietary/lib/librilqmiservices.so:system/lib/librilqmiservices.so \
-    vendor/motorola/athene/proprietary/lib/libsensorhubservice_jni.so:system/lib/libsensorhubservice_jni.so \
-    vendor/motorola/athene/proprietary/lib/libsensorhub.so:system/lib/libsensorhub.so \
     vendor/motorola/athene/proprietary/lib/libslowmotionconverter.so:system/lib/libslowmotionconverter.so \
     vendor/motorola/athene/proprietary/lib/libslpc.so:system/lib/libslpc.so \
     vendor/motorola/athene/proprietary/lib/libtinyxml.so:system/lib/libtinyxml.so \
@@ -991,9 +984,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
     vendor/motorola/athene/proprietary/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
     vendor/motorola/athene/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libsensorhubservice_jni.so:system/vendor/lib/libsensorhubservice_jni.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/motorola/athene/proprietary/vendor/lib/libsettings.so:system/vendor/lib/libsettings.so \
     vendor/motorola/athene/proprietary/vendor/lib/libslimclient.so:system/vendor/lib/libslimclient.so \
     vendor/motorola/athene/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
