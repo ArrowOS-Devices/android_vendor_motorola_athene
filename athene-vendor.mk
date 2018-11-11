@@ -1276,7 +1276,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     QtiTelephonyService \
     QtiTelephonyServicelibrary \
-    qti-telephony-common \
     embms \
 	cneapiclient \
 	com.qti.dpmframework \
