@@ -1278,6 +1278,15 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/lib/hw/motorola.hardware.power@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/motorola.hardware.power@1.0-impl.so \
     vendor/motorola/athene/proprietary/vendor/lib/motorola.hardware.power@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.power@1.0_vendor.so
 
+# Motorola Display Panel
+PRODUCT_COPY_FILES += \
+    vendor/motorola/athene/proprietary/lib/com.motorola.hardware.display.panel@1.0.so:system/lib/com.motorola.hardware.display.panel@1.0.so \
+    vendor/motorola/athene/proprietary/vendor/bin/hw/com.motorola.hardware.display.panel@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/com.motorola.hardware.display.panel@1.0-service \
+    vendor/motorola/athene/proprietary/vendor/etc/init/com.motorola.hardware.display.panel@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.motorola.hardware.display.panel@1.0-service.rc \
+    vendor/motorola/athene/proprietary/vendor/lib/com.motorola.hardware.display.panel@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.motorola.hardware.display.panel@1.0_vendor.so \
+    vendor/motorola/athene/proprietary/vendor/lib/hw/com.motorola.hardware.display.panel@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.motorola.hardware.display.panel@1.0-impl.so \
+    vendor/motorola/athene/proprietary/vendor/lib/hw/displaypanel.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/displaypanel.default.so
+
 # Packages
 PRODUCT_PACKAGES += \
     QtiTelephonyService \
