@@ -1,0 +1,4 @@
+service powerext-hal-1-0 /vendor/bin/hw/motorola.hardware.power@1.0-service
+    class hal
+    user system
+    group system
