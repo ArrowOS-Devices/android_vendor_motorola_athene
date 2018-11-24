@@ -1287,6 +1287,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/lib/hw/com.motorola.hardware.display.panel@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.motorola.hardware.display.panel@1.0-impl.so \
     vendor/motorola/athene/proprietary/vendor/lib/hw/displaypanel.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/displaypanel.default.so
 
+# Motorola Audio Service
+PRODUCT_COPY_FILES += \
+    vendor/motorola/athene/proprietary/vendor/bin/hw/motorola.hardware.audio@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/motorola.hardware.audio@2.0-service \
+    vendor/motorola/athene/proprietary/vendor/etc/init/motorola.hardware.audio@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.audio@2.0-service.rc
+
 # Packages
 PRODUCT_PACKAGES += \
     QtiTelephonyService \

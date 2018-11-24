@@ -1,0 +1,18 @@
+service audio-hal-2-0 /vendor/bin/hw/motorola.hardware.audio@2.0-service
+    class hal
+    user audioserver
+    # media gid needed for /dev/fm (radio) and for /data/misc/media (tee)
+    group audio camera drmrpc inet media mediadrm net_bt net_bt_admin net_bw_acct
+    ioprio rt 4
+    writepid /dev/cpuset/foreground/tasks /dev/stune/foreground/tasks
+    # audioflinger restarts itself when it loses connection with the hal
+    # and its .rc file has an "onrestart restart audio-hal" rule, thus
+    # an additional auto-restart from the init process isn't needed.
+    oneshot
+
+# If audioserver is stopped and started again, its "onrestart" trigger
+# is not triggered. Hence lets make sure hal is always in a clean state
+# for audioserver initialization by restarting it when audioserver
+# service state changes to stopped
+on property:init.svc.audioserver=stopped
+    restart audio-hal-2-0
