@@ -17,14 +17,7 @@
 PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/motorola/athene/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
-    vendor/motorola/athene/proprietary/bin/batt_health:system/bin/batt_health \
     vendor/motorola/athene/proprietary/vendor/bin/charge_only_mode:$(TARGET_COPY_OUT_VENDOR)/bin/charge_only_mode \
-    vendor/motorola/athene/proprietary/bin/cnss_diag:system/bin/cnss_diag \
-    vendor/motorola/athene/proprietary/bin/dbvc_atvc_property_set:system/bin/dbvc_atvc_property_set \
-    vendor/motorola/athene/proprietary/bin/dun-server:system/bin/dun-server \
-    vendor/motorola/athene/proprietary/bin/ftmipcd:system/bin/ftmipcd \
-    vendor/motorola/athene/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
-    vendor/motorola/athene/proprietary/bin/hal_proxy_daemon:system/bin/hal_proxy_daemon \
     vendor/motorola/athene/proprietary/bin/hardware_revisions.sh:system/bin/hardware_revisions.sh \
     vendor/motorola/athene/proprietary/vendor/bin/irsc_util:$(TARGET_COPY_OUT_VENDOR)/bin/irsc_util \
     vendor/motorola/athene/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
@@ -34,7 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/motorola/athene/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/motorola/athene/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/motorola/athene/proprietary/bin/radish:system/bin/radish \
     vendor/motorola/athene/proprietary/vendor/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
     vendor/motorola/athene/proprietary/bin/tcmd:system/bin/tcmd \
     vendor/motorola/athene/proprietary/bin/tcmdhelp:system/bin/tcmdhelp \
