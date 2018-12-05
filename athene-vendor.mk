@@ -1055,6 +1055,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.bluetooth_audio@1.0_vendor.so \
     vendor/motorola/athene/proprietary/vendor/lib64/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbtnv.so
 
+# Widevine DRM
+PRODUCT_COPY_FILES += \
+    vendor/motorola/athene/proprietary/vendor/bin/hw/android.hardware.drm@1.0-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.0-service.widevine \
+    vendor/motorola/athene/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.0-service.widevine.rc \
+    vendor/motorola/athene/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so
+
 # aptX(HD) Bluetooth
 PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaptXHD_encoder.so \
