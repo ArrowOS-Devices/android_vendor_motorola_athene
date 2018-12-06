@@ -1117,11 +1117,7 @@ PRODUCT_COPY_FILES += \
 
 # Time services
 PRODUCT_COPY_FILES += \
-    vendor/motorola/athene/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
-    vendor/motorola/athene/proprietary/vendor/lib/libTimeService.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTimeService.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtime_genoff.so \
-    vendor/motorola/athene/proprietary/vendor/lib64/libTimeService.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libTimeService.so \
-    vendor/motorola/athene/proprietary/vendor/lib64/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtime_genoff.so
+    vendor/motorola/athene/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon
 
 # RIL 
 PRODUCT_COPY_FILES += \
