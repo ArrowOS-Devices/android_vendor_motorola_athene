@@ -88,6 +88,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/framework/rcsservice.jar:system/framework/rcsservice.jar \
     vendor/motorola/athene/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/motorola/athene/proprietary/framework/tcmiface.jar:system/framework/tcmiface.jar \
+    vendor/motorola/athene/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/motorola/athene/proprietary/framework/com.motorola.android.dropboxhelper.jar:system/framework/com.motorola.android.dropboxhelper.jar \
     vendor/motorola/athene/proprietary/framework/com.motorola.android.settings.shared.jar:system/framework/com.motorola.android.settings.shared.jar \
     vendor/motorola/athene/proprietary/framework/com.motorola.camerabgproc.jar:system/framework/com.motorola.camerabgproc.jar \
