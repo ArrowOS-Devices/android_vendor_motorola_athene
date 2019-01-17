@@ -786,6 +786,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/lib64/libdtvtuner.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdtvtuner.so \
     vendor/motorola/athene/proprietary/vendor/bin/hw/motorola.hardware.tv@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/motorola.hardware.tv@1.0-service \
     vendor/motorola/athene/proprietary/vendor/etc/init/motorola.hardware.tv@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.tv@1.0-service.rc \
+    vendor/motorola/athene/proprietary/vendor/etc/permissions/com.motorola.hardware.dtv.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.hardware.dtv.xml \
+    vendor/motorola/athene/proprietary/vendor/etc/permissions/mot_dtv_permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/mot_dtv_permissions.xml \
     vendor/motorola/athene/proprietary/vendor/lib/hw/motorola.hardware.tv@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/motorola.hardware.tv@1.0-impl.so \
     vendor/motorola/athene/proprietary/vendor/lib/motorola.hardware.tv@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.tv@1.0.so \
     vendor/motorola/athene/proprietary/vendor/lib/motorola.hardware.tv@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.tv@1.0_vendor.so \
