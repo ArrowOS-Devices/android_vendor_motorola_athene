@@ -52,26 +52,26 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/motorola/athene/proprietary/etc/motorola/ecc_db/qcril_mot_ecc_common.db:system/etc/motorola/ecc_db/qcril_mot_ecc_common.db \
     vendor/motorola/athene/proprietary/etc/motorola/mdmctbk/ctbk_val.cfg:system/etc/motorola/mdmctbk/ctbk_val.cfg \
-    vendor/motorola/athene/proprietary/etc/permissions/com.motorola.frameworks.core.addon.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.frameworks.core.addon.xml \
-    vendor/motorola/athene/proprietary/etc/permissions/com.motorola.msimsettings.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.msimsettings.xml \
-    vendor/motorola/athene/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.qti.snapdragon.sdk.display.xml \
-    vendor/motorola/athene/proprietary/etc/permissions/izat.xt.srv.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/izat.xt.srv.xml \
-    vendor/motorola/athene/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.qualcomm.location.vzw_library.xml \
-    vendor/motorola/athene/proprietary/etc/permissions/com.qualcomm.location.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.qualcomm.location.xml \
-    vendor/motorola/athene/proprietary/etc/permissions/imscm.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/imscm.xml \
-    vendor/motorola/athene/proprietary/etc/permissions/ims.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/ims.xml \
-    vendor/motorola/athene/proprietary/etc/permissions/qcnvitems.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qcnvitems.xml \
-    vendor/motorola/athene/proprietary/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qcrilhook.xml \
-    vendor/motorola/athene/proprietary/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_permissions.xml \
-    vendor/motorola/athene/proprietary/etc/permissions/com.motorola.android.settings.shared.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.android.settings.shared.xml \
-    vendor/motorola/athene/proprietary/etc/permissions/com.motorola.camerabgproc_library.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.camerabgproc_library.xml \
-    vendor/motorola/athene/proprietary/etc/permissions/com.motorola.frameworks.core.addon.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.frameworks.core.addon.xml \
-    vendor/motorola/athene/proprietary/etc/permissions/com.motorola.hw.sensorhub.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.hw.sensorhub.xml \
-    vendor/motorola/athene/proprietary/etc/permissions/com.motorola.imager.access.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.imager.access.xml \
-    vendor/motorola/athene/proprietary/etc/permissions/com.motorola.imager.athene.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.imager.athene.xml \
-    vendor/motorola/athene/proprietary/etc/permissions/com.motorola.motosignature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.motosignature.xml \
-    vendor/motorola/athene/proprietary/etc/permissions/com.motorola.slpc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.slpc.xml \
-    vendor/motorola/athene/proprietary/etc/permissions/privapp-permissions-com.qualcomm.atfwd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/privapp-permissions-com.qualcomm.atfwd.xml \
+    vendor/motorola/athene/proprietary/vendor/etc/permissions/com.motorola.frameworks.core.addon.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.frameworks.core.addon.xml \
+    vendor/motorola/athene/proprietary/vendor/etc/permissions/com.motorola.msimsettings.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.msimsettings.xml \
+    vendor/motorola/athene/proprietary/vendor/etc/permissions/com.qti.snapdragon.sdk.display.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.qti.snapdragon.sdk.display.xml \
+    vendor/motorola/athene/proprietary/vendor/etc/permissions/izat.xt.srv.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/izat.xt.srv.xml \
+    vendor/motorola/athene/proprietary/vendor/etc/permissions/com.qualcomm.location.vzw_library.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.qualcomm.location.vzw_library.xml \
+    vendor/motorola/athene/proprietary/vendor/etc/permissions/com.qualcomm.location.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.qualcomm.location.xml \
+    vendor/motorola/athene/proprietary/vendor/etc/permissions/imscm.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/imscm.xml \
+    vendor/motorola/athene/proprietary/vendor/etc/permissions/ims.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/ims.xml \
+    vendor/motorola/athene/proprietary/vendor/etc/permissions/qcnvitems.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qcnvitems.xml \
+    vendor/motorola/athene/proprietary/vendor/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qcrilhook.xml \
+    vendor/motorola/athene/proprietary/vendor/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_permissions.xml \
+    vendor/motorola/athene/proprietary/vendor/etc/permissions/com.motorola.android.settings.shared.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.android.settings.shared.xml \
+    vendor/motorola/athene/proprietary/vendor/etc/permissions/com.motorola.camerabgproc_library.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.camerabgproc_library.xml \
+    vendor/motorola/athene/proprietary/vendor/etc/permissions/com.motorola.frameworks.core.addon.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.frameworks.core.addon.xml \
+    vendor/motorola/athene/proprietary/vendor/etc/permissions/com.motorola.hw.sensorhub.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.hw.sensorhub.xml \
+    vendor/motorola/athene/proprietary/vendor/etc/permissions/com.motorola.imager.access.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.imager.access.xml \
+    vendor/motorola/athene/proprietary/vendor/etc/permissions/com.motorola.imager.athene.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.imager.athene.xml \
+    vendor/motorola/athene/proprietary/vendor/etc/permissions/com.motorola.motosignature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.motosignature.xml \
+    vendor/motorola/athene/proprietary/vendor/etc/permissions/com.motorola.slpc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.slpc.xml \
+    vendor/motorola/athene/proprietary/vendor/etc/permissions/privapp-permissions-com.qualcomm.atfwd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/privapp-permissions-com.qualcomm.atfwd.xml \
     vendor/motorola/athene/proprietary/framework/com.motorola.motosignature.jar:system/framework/com.motorola.motosignature.jar \
     vendor/motorola/athene/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/motorola/athene/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
