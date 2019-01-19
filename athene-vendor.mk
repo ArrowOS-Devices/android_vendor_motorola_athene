@@ -795,14 +795,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/lib64/motorola.hardware.tv@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.tv@1.0.so \
     vendor/motorola/athene/proprietary/vendor/lib64/motorola.hardware.tv@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.tv@1.0_vendor.so
 
-# esepowermanager
-PRODUCT_COPY_FILES += \
-    vendor/motorola/athene/proprietary/vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.esepowermanager@1.0-service.rc \
-    vendor/motorola/athene/proprietary/vendor/bin/hw/vendor.qti.esepowermanager@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.esepowermanager@1.0-service \
-    vendor/motorola/athene/proprietary/vendor/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so \
-    vendor/motorola/athene/proprietary/vendor/lib64/vendor.qti.esepowermanager@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.esepowermanager@1.0_vendor.so \
-    vendor/motorola/athene/proprietary/vendor/lib/vendor.qti.esepowermanager@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.esepowermanager@1.0_vendor
-
 # Motorola Power
 PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/lib/motorola.hardware.power@1.0.so:system/lib/motorola.hardware.power@1.0.so \
