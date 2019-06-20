@@ -46,6 +46,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/bin/qmi_motext_hook:system/bin/qmi_motext_hook \
     vendor/motorola/athene/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/motorola/athene/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/motorola/athene/proprietary/bin/qseecom_sample_client:system/bin/qseecom_sample_client \
     vendor/motorola/athene/proprietary/bin/radish:system/bin/radish \
     vendor/motorola/athene/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/motorola/athene/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
