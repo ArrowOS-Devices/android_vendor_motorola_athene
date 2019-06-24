@@ -63,15 +63,14 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qcrilhook.xml \
     vendor/motorola/athene/proprietary/vendor/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_permissions.xml \
     vendor/motorola/athene/proprietary/vendor/etc/permissions/com.motorola.android.settings.shared.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.android.settings.shared.xml \
+    vendor/motorola/athene/proprietary/vendor/etc/permissions/com.motorola.android.subsidyutils.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.android.subsidyutils.xml \
     vendor/motorola/athene/proprietary/vendor/etc/permissions/com.motorola.camerabgproc_library.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.camerabgproc_library.xml \
     vendor/motorola/athene/proprietary/vendor/etc/permissions/com.motorola.frameworks.core.addon.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.frameworks.core.addon.xml \
     vendor/motorola/athene/proprietary/vendor/etc/permissions/com.motorola.hw.sensorhub.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.hw.sensorhub.xml \
-    vendor/motorola/athene/proprietary/vendor/etc/permissions/com.motorola.imager.access.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.imager.access.xml \
-    vendor/motorola/athene/proprietary/vendor/etc/permissions/com.motorola.imager.athene.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.imager.athene.xml \
     vendor/motorola/athene/proprietary/vendor/etc/permissions/com.motorola.motosignature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.motosignature.xml \
+    vendor/motorola/athene/proprietary/vendor/etc/permissions/com.motorola.timeweatherwidget.library.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.timeweatherwidget.library.xml \
     vendor/motorola/athene/proprietary/vendor/etc/permissions/com.motorola.slpc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.slpc.xml \
     vendor/motorola/athene/proprietary/vendor/etc/permissions/privapp-permissions-com.qualcomm.atfwd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/privapp-permissions-com.qualcomm.atfwd.xml \
-    vendor/motorola/athene/proprietary/framework/com.motorola.motosignature.jar:system/framework/com.motorola.motosignature.jar \
     vendor/motorola/athene/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/motorola/athene/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/motorola/athene/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
@@ -88,9 +87,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/motorola/athene/proprietary/framework/com.motorola.android.dropboxhelper.jar:system/framework/com.motorola.android.dropboxhelper.jar \
     vendor/motorola/athene/proprietary/framework/com.motorola.android.settings.shared.jar:system/framework/com.motorola.android.settings.shared.jar \
+    vendor/motorola/athene/proprietary/framework/com.motorola.android.subsidyutils.jar:system/framework/com.motorola.android.subsidyutils.jar \
     vendor/motorola/athene/proprietary/framework/com.motorola.camerabgproc.jar:system/framework/com.motorola.camerabgproc.jar \
     vendor/motorola/athene/proprietary/framework/com.motorola.frameworks.core.addon.jar:system/framework/com.motorola.frameworks.core.addon.jar \
-    vendor/motorola/athene/proprietary/framework/com.motorola.imager.athene.jar:system/framework/com.motorola.imager.athene.jar \
+    vendor/motorola/athene/proprietary/framework/com.motorola.motosignature.jar:system/framework/com.motorola.motosignature.jar \
+    vendor/motorola/athene/proprietary/framework/com.motorola.timeweatherwidget.library.jar:system/framework/com.motorola.timeweatherwidget.library.jar \
     vendor/motorola/athene/proprietary/vendor/lib/libtinyxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml.so \
     vendor/motorola/athene/proprietary/vendor/lib/soundfx/libaudiopreprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudiopreprocessing.so \
     vendor/motorola/athene/proprietary/vendor/lib/soundfx/libbundlewrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libbundlewrapper.so \
