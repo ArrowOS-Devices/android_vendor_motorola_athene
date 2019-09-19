@@ -42,12 +42,13 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := TimeService
 LOCAL_MODULE_OWNER := motorola
-LOCAL_SRC_FILES := proprietary/app/TimeService/TimeService.apk
+LOCAL_SRC_FILES := proprietary/vendor/app/TimeService/TimeService.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .apk
+LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -75,40 +76,14 @@ LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := colorservice
-LOCAL_MODULE_OWNER := motorola
-LOCAL_SRC_FILES := proprietary/vendor/app/colorservice/colorservice.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PROPRIETARY_MODULE := true
-include $(BUILD_PREBUILT)
-
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := ims
 LOCAL_MODULE_OWNER := motorola
-LOCAL_SRC_FILES := proprietary/vendor/app/ims/ims.apk
+LOCAL_SRC_FILES := proprietary/app/ims/ims.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PROPRIETARY_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := imssettings
-LOCAL_MODULE_OWNER := motorola
-LOCAL_SRC_FILES := proprietary/vendor/app/imssettings/imssettings.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -136,90 +111,6 @@ LOCAL_SRC_FILES := proprietary/framework/qcrilhook.jar
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := AttPhoneExt
-LOCAL_MODULE_OWNER := motorola
-LOCAL_SRC_FILES := proprietary/priv-app/AttPhoneExt/AttPhoneExt.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PRIVILEGED_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := CarrierServices
-LOCAL_MODULE_OWNER := motorola
-LOCAL_SRC_FILES := proprietary/priv-app/CarrierServices/CarrierServices.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PRIVILEGED_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := CarrierSettingsExt
-LOCAL_MODULE_OWNER := motorola
-LOCAL_SRC_FILES := proprietary/priv-app/CarrierSettingsExt/CarrierSettingsExt.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PRIVILEGED_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := ConnMO
-LOCAL_MODULE_OWNER := motorola
-LOCAL_SRC_FILES := proprietary/priv-app/ConnMO/ConnMO.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PRIVILEGED_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := CoreSettingsExt
-LOCAL_MODULE_OWNER := motorola
-LOCAL_SRC_FILES := proprietary/priv-app/CoreSettingsExt/CoreSettingsExt.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PRIVILEGED_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := DCMO
-LOCAL_MODULE_OWNER := motorola
-LOCAL_SRC_FILES := proprietary/priv-app/DCMO/DCMO.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PRIVILEGED_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := DiagMon
-LOCAL_MODULE_OWNER := motorola
-LOCAL_SRC_FILES := proprietary/priv-app/DiagMon/DiagMon.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -256,17 +147,6 @@ LOCAL_MODULE_CLASS := APPS
 LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .apk
 LOCAL_PRIVILEGED_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := DMConfigUpdateLight
-LOCAL_MODULE_OWNER := motorola
-LOCAL_SRC_FILES := proprietary/app/DMConfigUpdateLight/DMConfigUpdateLight.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
 endif

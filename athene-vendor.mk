@@ -625,19 +625,10 @@ PRODUCT_PACKAGES += \
     CNEService \
     qcrilmsgtunnel \
     ims \
-    colorservice \
     imssettings \
     imscmlibrary \
     qcnvitems \
     qcrilhook \
-    AttPhoneExt \
-    CarrierServices \
-    CarrierSettingsExt \
-    ConnMO \
-    CoreSettingsExt \
-    DCMO \
-    DiagMon \
     DMService \
     SprintDM \
-    DMConfigUpdateLight \
     atfwd
