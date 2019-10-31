@@ -662,6 +662,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/lib/libdataitems.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdataitems.so \
     vendor/motorola/athene/proprietary/vendor/lib/libDRPlugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDRPlugin.so \
     vendor/motorola/athene/proprietary/vendor/lib/libdrplugin_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrplugin_client.so \
+    vendor/motorola/athene/proprietary/vendor/lib/lib_drplugin_server.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrplugin_server.so \
     vendor/motorola/athene/proprietary/vendor/lib/libevent_observer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libevent_observer.so \
     vendor/motorola/athene/proprietary/vendor/lib/libflp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflp.so \
     vendor/motorola/athene/proprietary/vendor/lib/libgdtap.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgdtap.so \
@@ -677,13 +678,15 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/lib/liblocationservice_glue.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblocationservice_glue.so \
     vendor/motorola/athene/proprietary/vendor/lib/liblowi_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblowi_client.so \
     vendor/motorola/athene/proprietary/vendor/lib/liblowi_wifihal.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblowi_wifihal.so \
-    vendor/motorola/athene/proprietary/vendor/lib/liblowi_wifihal_nl.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblowi_wifihal_nl.so \
     vendor/motorola/athene/proprietary/vendor/lib/libquipc_os_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libquipc_os_api.so \
     vendor/motorola/athene/proprietary/vendor/lib/libulp2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libulp2.so \
-    vendor/motorola/athene/proprietary/vendor/lib/libxt_native.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxt_native.so \
     vendor/motorola/athene/proprietary/vendor/lib/libxtadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxtadapter.so \
     vendor/motorola/athene/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxtwifi_ulp_adaptor.so \
-    vendor/motorola/athene/proprietary/vendor/lib/vendor.qti.gnss@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@1.0_vendor.so \
+    vendor/motorola/athene/proprietary/vendor/lib/vendor.qti.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@1.0.so \
+    vendor/motorola/athene/proprietary/vendor/lib/vendor.qti.gnss@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@1.1.so \
+    vendor/motorola/athene/proprietary/vendor/lib/vendor.qti.gnss@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@1.2.so \
+    vendor/motorola/athene/proprietary/vendor/lib/vendor.qti.gnss@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@2.0.so \
+    vendor/motorola/athene/proprietary/vendor/lib/vendor.qti.gnss@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@2.1.so \
 
 # Thermal Engine
 PRODUCT_COPY_FILES += \
